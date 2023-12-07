@@ -1,0 +1,88 @@
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    height: 150px;
+
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 300px;
+    margin-top: 100px;
+
+}
+
+.id,
+.pw {
+    margin: 10px;
+    width: 80%;
+    
+}
+
+input[type="text"] {
+    width: 97.5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.login>.chk>input {
+    border-right:30px solid;
+    width:25px;
+    height:25px;      
+    display:inline-block;
+    margin: 15px;
+           
+}
+ input[type=checkbox] {
+    accent-color:#ffd141;
+    background-color: #ccc;
+    
+}
+.chk>label {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 15px;
+}
+.btn {
+    display: block;
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+
+.btn--primary {
+    background-color: rgb(28, 92, 57);
+    width: 78.5vw;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 79vw;
+    font-size: 0.9rem;
+}
+.container>a {
+    display: block;
+    width: 150px;
+    margin-top: 10px;
+    color: gray;
+}
+.container>a:nth-child(2) {
+    text-align: right;
+}

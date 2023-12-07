@@ -1,0 +1,104 @@
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+body {
+    height: 900px;
+
+}
+
+
+/* 메인 */
+main{
+    /* border:1px solid gray; */
+               
+
+}
+main>section{
+    /* border:1px solid gray; */
+}
+main>section:nth-child(1){
+    /* margin-top: 60px; */
+}
+main>section:nth-child(1)>img{
+    width: 100vh;
+    height: 100vh;
+}
+
+
+main>section:nth-child(2){
+    height:600px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10vh;
+
+}
+main>section:nth-child(2)>aside{
+    margin: 10px;
+    width:200px;
+    height: 50%;
+    
+
+    
+}
+.one--depth>li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid gray;
+    background-color: #ffffff;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.one--depth>li>a{
+    
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+    
+.one--depth>li>a:hover {
+        background-color: #FFD141;}
+
+
+
+main>section:nth-child(2)>article{
+    flex-grow: 1;
+    animation-name: moving2;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    margin-left: 10vh;
+}
+
+main>section:nth-child(3){
+    height:500px;
+    display: flex;
+    margin-left: 30vh;
+    padding-top: 20px;
+}
+main>section:nth-child(3)>aside{
+
+    
+}
+main>section:nth-child(3)>article{
+    flex-grow: 1;
+    animation-name: moving2;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    margin-left: 10vh;
+}
+
+@keyframes moving2{
+    from {margin-top: 100%;}
+    to {margin-top: 0%;}
+}  

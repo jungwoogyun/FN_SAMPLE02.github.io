@@ -1,0 +1,42 @@
+        /* 푸터 */
+        footer {
+            background-color: #ffd141;
+            color: #225D39;
+            padding: 160px;
+            height: 300px;
+        }
+        .footer {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        
+        .footer_write {
+            text-align: center;
+            position: relative;
+            top: 10px;
+              margin-bottom: 20px;
+        
+        }
+        
+        .footer_write p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .policy{
+            margin-top: 10px;
+        }
+        .policy ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .policy li {
+            margin-right: 20px;
+        }
+        
+        .policy a {
+            text-decoration: none;
+            color: #225D39;
+        }

@@ -1,0 +1,15 @@
+.hamdurger:hover {
+background: rgba(24, 23, 23, 0.7);
+}
+nav>ul>li{
+display: none;
+}
+#nav_wrap{
+    background:none ;
+}
+
+.icon img{
+    display: none;
+}
+
+

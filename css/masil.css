@@ -1,0 +1,11 @@
+ul{
+    list-style: none;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    height: 2700px;
+}
